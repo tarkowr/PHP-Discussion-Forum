@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add a Topic</title>
+<link href="css/forms.css" rel="stylesheet" type="text/css" />
+<style>
+#logOut{
+background-color: #4286f4;
+color: white;
+position: fixed;
+top: 15px;
+right: 15px;
+padding: 5px 20px;
+border: 1px solid white;
+border-radius: 20px;
+}
+#logOut:hover{
+background-color: white;
+color: #4286f4;
+}
+</style>
+</head>
+<body>
+<header id = "top">
+        <h1> Add Topic </h1>
+</header>
+<nav>
+        <a href = "discussionMenu.html"><button>Main Menu</button></a>
+        <a href="showtopic.php"><button>Show Topics</button></a>
+        <a href = "addtopic.html"><button>Add Topic</button></a>
+</nav>
+<form method="post" action="do_addtopic.php" id = "addForm">
+
+        <p><label for="topic_title">Topic Title:</label><br/>
+        <input type="text" id="topic_title" name="topic_title" size="40"
+                maxlength="150" required="required" autocomplete="off" autofocus /></p>
+
+        <p><label for="post_text">Post Text:</label><br/>
+        <textarea id="post_text" name="post_text" rows="8"
+                cols="40" autocomplete="off" ></textarea></p>
+
+        <button id = "addTopic" class = "styledButton" type="submit" name="submit" value="submit">Add to Forum</button>
+</form>
+
+<a href = "logOut.php"><button id = "logOut">Log Out</button></a>
+</body>
+</html>

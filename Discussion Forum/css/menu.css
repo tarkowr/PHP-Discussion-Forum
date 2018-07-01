@@ -1,0 +1,88 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #E4E4E4;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+}
+#top{
+    background-color: black;
+    letter-spacing: -2px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+#top label{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+#slogan p{
+    background-color: #404040;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+#links{
+    text-align: center;
+}
+#links div{
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto;
+    margin: 0px 20px;
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+}
+#links div button{
+    background-color: #2770e5;
+    width: 200px;
+    border: none;
+    padding: 15px 0px;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    /*transform: opacity .5s;*/
+}
+#links div button:hover{
+    opacity: .7;
+}
+#links div a{
+    text-decoration: none;
+}
+#links div header{
+    background-color: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+}
+#links div p{
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    text-align: left;
+}
+#logOut{
+    background-color: #4286f4;
+    color: white;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#logOut:hover{
+    background-color: white;
+    color: #4286f4;
+}
