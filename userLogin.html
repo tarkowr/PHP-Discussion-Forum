@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Login Form</title>
+<link rel="stylesheet" href = "css/forms.css">
+</head>
+<body >
+<div class="center">
+    <header id = "top">
+        <h1> March Madness Login </h1>
+    </header>
+    <section id = "slogan">
+        <p> - For people who love basketball -</p>
+    </section>
+<form method="post" action="userLogin.php" id = "loginForm">
+    <p id = "inst">Please Login Here</p>
+    <p><label for="username">Username:</label><br/>
+    <input type="text" id="username" name="username" autofocus autocomplete="off"
+     /></p>
+    <p><label for="password">Password:</label><br/>
+    <input type="password" id="password" name="password" /></p>
+    <button type="submit" name="submit" id="login" class = "styledButton" value="submit">Login</button>
+</form>
+
+<form id = "createAccount">
+    <a href = "createAccount.html" id = "create">Create an Account</a>
+</form>
+</div>
+</body>
+</html>

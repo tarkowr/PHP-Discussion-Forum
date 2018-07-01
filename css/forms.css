@@ -1,0 +1,136 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #E4E4E4;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #2770e5;
+}
+#top{
+    background-color: black;
+    letter-spacing: -2px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+#top label{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+#slogan p{
+    background-color: #404040;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+nav{
+    background-color: #404040;
+    margin-top: 0;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav button{
+    background-color: #404040;
+    width: 150px;
+    border: 1px solid #404040;
+    padding: 15px 0px;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+nav button:hover{
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid white;
+    border-bottom: 1px solid #2D2D2D;
+    border-top: 1px solid #2d2d2d;
+}
+form{
+    background-color: white;
+    border: 1px solid #C9C9C9;
+    margin: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    width: auto;
+}
+table th{
+    background-color: #4286f4;
+    color: white;
+    letter-spacing: 2px;
+}
+#loginForm{
+    width: 300px;
+    margin: 0 auto;
+}
+#loginForm input{
+    width: 200px;
+}
+#replyForm{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#addForm{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+}
+#inst{
+    background-color: none;
+    color: #404040;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+input{
+    padding: 5px;
+}
+form label{
+    color: #2770e5;
+}
+textarea{
+    resize: both;
+}
+.styledButton{
+    background-color: #1D1D1D;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+}
+.styledButton:hover{
+    background-color: #2770e5;
+}
+#createAccount{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+}
+#create{
+    color: #4286f4;
+    font-size: 14px;
+    text-decoration: underline;
+}
+#create:hover{
+    color: #2770e5;
+}
+#editTopic{
+    font-size: 18px;
+}
